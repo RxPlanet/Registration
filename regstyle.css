@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: url(300.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.registration-box{
+    position: relative;
+    width: 500px;
+    height: 600px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+
+h2{
+    font-size: 2em;
+    color: aliceblue;
+    text-align: center;
+}
+
+.contante{
+    position:relative;
+    width: 400px;
+    margin: 15px;
+
+}
+
+.contante a{
+    font-size: 1.4em;
+    color: rgb(255, 255, 255);
+}
+
+
+.contante label input{
+    font-size: 1em;
+    position: absolute;
+    left: 200px;
+    background:none;
+    border: 2px solid rgb(221, 188, 188);
+    color: rgb(255, 255, 255);
+    backdrop-filter: blur(20px);
+}
+.contante label input:hover{
+    background: rgb(50, 245, 115);
+}
+
+
+.trams{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    color: aliceblue;
+}
+.trams:hover{
+    color: aqua;
+}
+
+button{
+    width: 100%;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    justify-content: center;
+    margin: 10px;
+    font-size: 1.2em;
+    background-color: transparent;
+    color: rgb(255, 94, 0);
+
+}
+button:hover{
+    color: rgb(0, 250, 62);
+    background-color: blue;
+}
